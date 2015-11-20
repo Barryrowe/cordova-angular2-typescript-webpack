@@ -10,14 +10,15 @@
     "sass-loader": "^3.1.1",
     "style-loader": "^0.13.0",
     "typescript": "latest",
-    "webpack": "latest",    
+    "webpack": "latest",
     "webpack-typescript": "^0.5.6"
   },
   "dependencies": {
-    "angular2": "^2.0.0-alpha.46"
+    "angular2": "^2.0.0-alpha.46",
+    "es6-shim": "^0.33.13"
   },
   "scripts": {
-    "start": "live-server www",    
+    "start": "live-server www",
     "build": "webpack",
     "watch": "webpack -w"
   },
