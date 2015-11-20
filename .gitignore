@@ -1,0 +1,6 @@
+#never commit node_modules
+node_modules
+
+#never commit packed files
+www/build
+

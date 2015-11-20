@@ -1,0 +1,24 @@
+{
+  "name": "angular2-typescript-webpack-example",
+  "version": "0.0.0",
+  "devDependencies": {    
+    "node-sass": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-typescript": "^0.5.6",
+    "live-server": "latest"    
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.46"
+  },
+  "scripts": {
+    "start": "live-server www",
+    "build": "webpack"
+  },
+  "author": {
+    "email": "barry@roaringcatgames.com",
+    "name": "Barry Rowe",
+    "twitter": "@barryrowe"
+  },
+  "license": "MIT"
+}
