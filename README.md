@@ -1,5 +1,4 @@
-#Angular2, Cordova, Typescript, Webpack
-##(How did frontend get so convoluted?)
+#Angular2, Typescript, Webpack, Cordova
 
 This repo will hold a minimal project structure for starting a cordova application built with Angular2 in Typescript. We'll be using webpack to bundle and transpile.
 
