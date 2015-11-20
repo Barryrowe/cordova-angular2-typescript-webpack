@@ -1,0 +1,8 @@
+$font-stack: Courier, Helvetica, sans-serif;
+$primary-color: #EFAB75;
+
+body {
+	background: $primary-color;
+	font-size: 2em;
+	font: 100% $font-stack;
+}

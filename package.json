@@ -1,19 +1,25 @@
 {
   "name": "angular2-typescript-webpack-example",
   "version": "0.0.0",
-  "devDependencies": {    
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "live-server": "latest",
     "node-sass": "latest",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
     "typescript": "latest",
-    "webpack": "latest",
-    "webpack-typescript": "^0.5.6",
-    "live-server": "latest"    
+    "webpack": "latest",    
+    "webpack-typescript": "^0.5.6"
   },
   "dependencies": {
     "angular2": "^2.0.0-alpha.46"
   },
   "scripts": {
-    "start": "live-server www",
-    "build": "webpack"
+    "start": "live-server www",    
+    "build": "webpack",
+    "watch": "webpack -w"
   },
   "author": {
     "email": "barry@roaringcatgames.com",
